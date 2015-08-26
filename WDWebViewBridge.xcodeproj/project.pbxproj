@@ -17,6 +17,7 @@
 		B6664FB01B8D675300B1197D /* WDWebViewBridge.js in Resources */ = {isa = PBXBuildFile; fileRef = B6664FAF1B8D675300B1197D /* WDWebViewBridge.js */; };
 		B6664FB21B8D679400B1197D /* WDMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6664FB11B8D679400B1197D /* WDMessage.swift */; };
 		B6664FBA1B8DA3F200B1197D /* Example.html in Resources */ = {isa = PBXBuildFile; fileRef = B6664FB91B8DA3F200B1197D /* Example.html */; };
+		B6664FBE1B8DB4ED00B1197D /* ReadMe.text in Sources */ = {isa = PBXBuildFile; fileRef = B6664FBD1B8DB4ED00B1197D /* ReadMe.text */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		B6664FAF1B8D675300B1197D /* WDWebViewBridge.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = WDWebViewBridge.js; sourceTree = "<group>"; };
 		B6664FB11B8D679400B1197D /* WDMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WDMessage.swift; sourceTree = "<group>"; };
 		B6664FB91B8DA3F200B1197D /* Example.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Example.html; sourceTree = "<group>"; };
+		B6664FBD1B8DB4ED00B1197D /* ReadMe.text */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = ReadMe.text; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +130,7 @@
 				B6664FAF1B8D675300B1197D /* WDWebViewBridge.js */,
 				B6664FAD1B8D66F100B1197D /* WDWebViewBridge.swift */,
 				B6664FB11B8D679400B1197D /* WDMessage.swift */,
+				B6664FBD1B8DB4ED00B1197D /* ReadMe.text */,
 			);
 			path = WDWebViewBridge;
 			sourceTree = "<group>";
@@ -237,6 +240,7 @@
 				B6664FAE1B8D66F100B1197D /* WDWebViewBridge.swift in Sources */,
 				B6664FAA1B8D62B100B1197D /* AppDelegate.swift in Sources */,
 				B6664FB21B8D679400B1197D /* WDMessage.swift in Sources */,
+				B6664FBE1B8DB4ED00B1197D /* ReadMe.text in Sources */,
 				B6664F8C1B8D626300B1197D /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,6 +437,7 @@
 				B6664FA51B8D626300B1197D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B6664FA61B8D626300B1197D /* Build configuration list for PBXNativeTarget "WDWebViewBridgeTests" */ = {
 			isa = XCConfigurationList;
@@ -441,6 +446,7 @@
 				B6664FA81B8D626300B1197D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
