@@ -3,10 +3,10 @@
 
 //给app发送消息，及回调方法
 	function sendMessageToApp(message){
-			AppBridge.sendMessageToApp(message,function calback(backMessage){
-				alert(backMessage,"操作提示：");
-			});
-		}
+		AppBridge.sendMessageToApp(message,function calback(backMessage){
+			alert(backMessage,"操作提示：");
+		});
+	}
 
 	//监听接收app发过来的消息
 	AppBridge.receiveAppMessage = function receiveAppMessage(message){
@@ -22,9 +22,9 @@
         
 //发送消息给js
     @IBAction func sendMessageToJavaScriptAction(sender: UIButton) {
-        self.bridge.wdBridgeSend("哈哈哈哈哈哈，给js发消息", responseBlock: { (message) -> Void in
-            println("js的反馈:" + (message as! String))
-        })
+    	self.bridge.wdBridgeSend("哈哈哈哈哈哈，给js发消息", responseBlock: { (message) -> Void in
+    		println("js的反馈:" + (message as! String))
+    	})
     }
     
     //监听webview js 过来的消息
