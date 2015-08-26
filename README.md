@@ -4,7 +4,7 @@
 //给app发送消息，及回调方法
 	function sendMessageToApp(message){
 		AppBridge.sendMessageToApp(message,function calback(backMessage){
-			alert(backMessage,"操作提示：");
+		alert(backMessage,"操作提示：");
 		});
 	}
 
